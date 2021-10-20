@@ -8,6 +8,7 @@ body{
 }
 
 .hero-content{
+    margin-top: 68.72px;
     min-height: calc(100vh - 69.72px);
     background-image: url('assets/img/5BrandsNew_Desktop_BPO.jpg');
     background-position: top right;
@@ -16,13 +17,10 @@ body{
     padding-top: 20vh;
 }
 
-.hero-content h1{
+.hero-content h1,.screens h2,.originals h2{
     font-weight: 600;
 }
 
-.screens h2{
-    font-weight: 600;
-}
 
 @media screen and (max-width:992px){
     .hero-content{
