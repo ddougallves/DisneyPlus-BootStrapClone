@@ -35,6 +35,15 @@ body{
     max-width: 1440px;
 }
 
+footer ul li a{
+    opacity: 75%;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    opacity: 1;
+}
+
 @media screen and (max-width:992px){
     .hero-content{
         background-image: url('assets/img/5BrandsNew_Mobile_BPO.jpg');
@@ -48,7 +57,6 @@ body{
         background-image: none;
     }
 }
-
 
 @media screen and (max-width:768px){
     .hero-content{
