@@ -1,1 +1,47 @@
+body{
+    background-color: #020514;
+}
 
+
+.navbar{
+    background-color: #090b13;
+}
+
+.hero-content{
+    min-height: calc(100vh - 69.72px);
+    background-image: url('assets/img/5BrandsNew_Desktop_BPO.jpg');
+    background-position: top right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20vh;
+}
+
+.hero-content h1{
+    font-weight: 600;
+}
+
+.screens h2{
+    font-weight: 600;
+}
+
+@media screen and (max-width:992px){
+    .hero-content{
+        background-image: url('assets/img/5BrandsNew_Mobile_BPO.jpg');
+        background-position: top center;
+        background-size: 100% auto;
+        padding-top: 60vh;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .hero-content{
+        padding-top: 40vh;
+    }
+}
+
+@media screen and (max-width:576px){
+    .hero-content{
+        padding-top: 25vh;
+    }
+}
