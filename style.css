@@ -18,11 +18,11 @@ body{
     max-width: 1920px;
 }
 
-.hero-content h1,.screens h2,.originals h2,.lion-king h2{
+.hero-content h1,.screens h2,.originals h2,.lion-king h2,.devices h2{
     font-weight: 600;
 }
 
-.originals,.screens{
+.originals,.screens,.devices{
     max-width: 1920px;
 }
 
