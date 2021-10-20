@@ -15,12 +15,25 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 20vh;
+    max-width: 1920px;
 }
 
-.hero-content h1,.screens h2,.originals h2{
+.hero-content h1,.screens h2,.originals h2,.lion-king h2{
     font-weight: 600;
 }
 
+.originals,.screens{
+    max-width: 1920px;
+}
+
+.lion-king{
+    min-height: 80vh;
+    background-image: url('assets/img/Module_LionKing.png');
+    background-position: left bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1440px;
+}
 
 @media screen and (max-width:992px){
     .hero-content{
@@ -28,6 +41,11 @@ body{
         background-position: top center;
         background-size: 100% auto;
         padding-top: 60vh;
+    }
+
+    .lion-king{
+        min-height: auto;
+        background-image: none;
     }
 }
 
